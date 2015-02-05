@@ -33,7 +33,7 @@ setInterval(unreadCount, 10000);
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a href="${scopePrefix}/" class="brand">Lemon <small>1.4.0</small></a>
+          <a href="${scopePrefix}/" class="brand">亿远</a>
           <div class="nav-collapse collapse navbar-responsive-collapse">
             <ul class="nav">
               <li class="divider-vertical"></li>
