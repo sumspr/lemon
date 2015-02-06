@@ -15,10 +15,4 @@
             </ul>
           </div>
         </div>
-
-		<footer id="m-footer" class="text-center">
-		  <hr>
-		  &copy;Mossle
-		</footer>
-      </aside>
-      <!-- end of sidebar -->
+		<%@ include file="common-footer.jsp" %>
