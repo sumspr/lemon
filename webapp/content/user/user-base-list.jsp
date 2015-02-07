@@ -73,6 +73,7 @@ $(function() {
 	  </article>
 
 	  <article class="m-blank">
+	  <tags:hasPerm value="role:auth">
 	    <div class="pull-left">
 		  <region:region-permission permission="user:create">
 		  <button class="btn btn-small a-insert" onclick="location.href='user-base-input.do'">新建</button>
@@ -82,6 +83,7 @@ $(function() {
 		  </region:region-permission>
 		  <button class="btn btn-small a-export" onclick="table.exportExcel()">导出</button>
 		</div>
+	  </tags:hasPerm>
 
 		<div class="pull-right">
 		  每页显示
@@ -123,10 +125,12 @@ $(function() {
         <td>${item.username}</td>
         <td>${item.nickName}</td>
         <td>${item.status == 1 ? '启用' : '禁用'}</td>
+        <tags:hasPerm value="role:auth">
         <td>
           <a href="user-avatar-input.do?id=${item.id}">头像</a>
           <a href="user-base-input.do?id=${item.id}" class="a-update"><spring:message code="core.list.edit" text="编辑"/></a>
         </td>
+        </tags:hasPerm>
       </tr>
       </c:forEach>
     </tbody>
