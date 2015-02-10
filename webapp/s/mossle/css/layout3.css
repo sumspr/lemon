@@ -5,7 +5,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+	font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
 	background: white;
 	font-size: 12px;
 }
@@ -413,7 +413,7 @@ div.m-alert-success {
 
 /**
  * uniform
- * 美化中文下的字体大小
+ * 缇庡寲涓枃涓嬬殑瀛椾綋澶у皬
  */
 div.uploader span.filename {
 	font-size: 12px;
@@ -424,9 +424,9 @@ div.uploader span.action {
 }
 
 /**
- * boostrap里的配置会导致radio样式下包裹的radio样式margin-left:-20px;
- * 导致被uniform渲染后的radio会跑到显示的radio的左边，无法点击到
- * 这里设置为0px，让用户可以简单点击到
+ * boostrap閲岀殑閰嶇疆浼氬鑷磖adio鏍峰紡涓嬪寘瑁圭殑radio鏍峰紡margin-left:-20px;
+ * 瀵艰嚧琚玼niform娓叉煋鍚庣殑radio浼氳窇鍒版樉绀虹殑radio鐨勫乏杈癸紝鏃犳硶鐐瑰嚮鍒�
+ * 杩欓噷璁剧疆涓�0px锛岃鐢ㄦ埛鍙互绠�鍗曠偣鍑诲埌
  */
 .radio input[type="radio"],
 .checkbox input[type="checkbox"] {
@@ -435,7 +435,7 @@ div.uploader span.action {
 }
 
 /**
- * uniform里用的是checker，要和bootstrap里保持一致
+ * uniform閲岀敤鐨勬槸checker锛岃鍜宐ootstrap閲屼繚鎸佷竴鑷�
  */
 .radio.inline + .radio.inline,
 .checkbox.inline + .checkbox.inline,
@@ -444,15 +444,15 @@ div.uploader span.action {
 }
 
 /**
- * uniform里checkbox的margin-right是5px，radio的margin-right是3px
- * 为了避免上下不对齐，统一改成5px
+ * uniform閲宑heckbox鐨刴argin-right鏄�5px锛宺adio鐨刴argin-right鏄�3px
+ * 涓轰簡閬垮厤涓婁笅涓嶅榻愶紝缁熶竴鏀规垚5px
  */
 div.radio {
     margin-right: 5px;
 }
 
 /**
- * 输入框背景显示标尺
+ * 杈撳叆妗嗚儗鏅樉绀烘爣灏�
  */
 input.measure-input {
 	background: url("../img/ruler.gif") repeat-x scroll 0 9px transparent;
@@ -496,7 +496,7 @@ input.measure-input {
 }
 
 /**
- * chozen中single select的search input高度过小的问题
+ * chozen涓璼ingle select鐨剆earch input楂樺害杩囧皬鐨勯棶棰�
  */
 .chzn-search input[type="text"] {
 	height: 24px;
