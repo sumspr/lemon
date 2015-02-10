@@ -52,7 +52,6 @@
           </div>
         </div>
 
-		<tags:hasPerm value="role:auth">
         <div class="accordion-group">
           <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#m-sidebar" href="#collapse-cal">
@@ -67,7 +66,6 @@
             </ul>
           </div>
         </div>
-        </tags:hasPerm>
 
         <div class="accordion-group">
           <div class="accordion-heading">
@@ -85,7 +83,6 @@
           </div>
         </div>
 
-		<tags:hasPerm value="role:auth">
         <div class="accordion-group">
           <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#m-sidebar" href="#collapse-doc">
@@ -114,5 +111,4 @@
             </ul>
           </div>
         </div>
-        </tags:hasPerm>
 		<%@ include file="common-footer.jsp" %>
