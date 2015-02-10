@@ -17,4 +17,10 @@
             </ul>
           </div>
         </div>
-		<%@ include file="common-footer.jsp" %>
+
+		<footer id="m-footer" class="text-center">
+		  <hr>
+		  &copy;Mossle
+		</footer>
+      </aside>
+      <!-- end of sidebar -->
