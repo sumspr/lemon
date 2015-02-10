@@ -1,5 +1,4 @@
 <%@ page language="java" pageEncoding="UTF-8" %>
-<%@ taglib prefix="tags" tagdir="/WEB-INF/tags" %>
 
     <c:if test="${not empty flashMessages}">
 	<div id="m-success-message" style="display:none;">
@@ -40,9 +39,9 @@ setInterval(unreadCount, 10000);
               <li class="divider-vertical"></li>
               <li class="${currentHeader == 'dashboard' ? 'active' : ''}"><a href="${scopePrefix}/dashboard/dashboard.do">首页</a></li>
               <li class="${currentHeader == 'bpm-workspace' ? 'active' : ''}"><a href="${scopePrefix}/bpm/workspace-home.do">个人事务</a></li>
-       		 <tags:hasPerm value="util">
-       		 <%@ include file="header-admin.jsp"%>
-			  </tags:hasPerm>
+              <% if(true){%>
+            	  <%@ include file="header-admin.jsp"%>
+			  <% } %>
             </ul>
             
             <ul class="nav pull-right">
